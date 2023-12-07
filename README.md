@@ -219,6 +219,58 @@ mentioned separately.
 
 - `crypto.x509.parse_rsa_private_key`
 
+### v0.31.0
+
+**New built-in functions**
+
+- `crypto.x509.parse_and_verify_certificates`
+- `rand.intn`
+
+### v0.28.0
+
+**New built-in functions**
+
+- `time.diff`
+
+### v0.26.0
+
+**New built-in functions**
+
+- `ceil`
+- `floor`
+
+### v0.25.0
+
+**New built-in functions**
+
+- `base64url.encode_no_pad`
+- `hex.encode`
+- `hex.decode`
+- `json.patch`
+- `json.is_valid`
+- `yaml.is_valid`
+
+### v0.24.0
+
+**New built-in functions**
+
+- `base64.is_valid`
+- `net.cidr_merge`
+- `urlquery.decode_object`
+
+### v0.23.0
+
+**New built-in functions**
+
+- `regex.is_valid`
+
+### v0.22.0
+
+**New built-in functions**
+
+- `numbers.range`
+- `semver.is_valid`
+- `semver.compare`
 
 ## Community
 
