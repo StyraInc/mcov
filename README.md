@@ -214,3 +214,9 @@ mentioned separately.
 **New built-in functions**
 
 - `crypto.x509.parse_rsa_private_key`
+
+
+## Community
+
+For questions, discussions and announcements related to Styra products, services and open source projects, please join
+the Styra community on [Slack](https://communityinviter.com/apps/styracommunity/signup)!
