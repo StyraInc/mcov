@@ -15,6 +15,10 @@ $ mcov policies/
 v0.37.0
 ```
 
+## Caveats
+
+Note that not all features of Rego that have been added over time — or changes made to existing ones — are possible to track using capabilities alone. Use the version reported by mcov as a starting point — not as a replacement for testing compatibility!
+
 ## OPA Versions Cheatsheet
 
 Below lists additions to the Rego language, as presented in the OPA capabilities file for each version.
