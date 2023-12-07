@@ -21,6 +21,92 @@ Below lists additions to the Rego language, as presented in the OPA capabilities
 Features that may have an impact on the minimum compatible OPA version but are **not** covered by capabilities are
 mentioned separately.
 
+### v0.59.0
+
+**Features**
+
+- `import rego.v1` (`rego_v1_import`)
+
+### v0.57.0
+
+**Features**
+
+- Support for General References in Rule Heads (`rule_head_refs`)
+
+**Not covered by capabilities**
+
+- Short form `else` bodies
+
+### v0.56.0
+
+**New built-in functions**
+
+- `numbers.range_step`
+
+### v0.55.0
+
+**New built-in functions**
+
+- `crypto.parse_private_keys`
+
+**Not covered by capabilities**
+
+- Honor `default` keyword on functions
+
+### v0.53.0
+
+**New built-in functions**
+
+- `crypto.x509.parse_keypair`
+
+### v0.52.0
+
+**New built-in functions**
+
+- `crypto.hmac.equal`
+
+### v0.50.0
+
+**New built-in functions**
+
+- `json.verify_schema`
+- `json.match_schema`
+
+### v0.48.0
+
+**New built-in functions**
+
+- `time.format`
+
+### v0.47.0
+
+**New built-in functions**
+
+- `object.keys`
+- `providers.aws.sign_req`
+
+### v0.46.0
+
+**Features**
+
+- Refs in rule heads (`rule_head_ref_string_prefixes`)
+
+**New built-in functions**
+
+- `graphql.schema_is_valid`
+- `net.cidr_is_valid`
+
+**Not covered by capabilities**
+
+- Entrypoint annotation
+- `with`: Allow replacing functions with rules
+
+### v0.45.0
+
+**New built-in functions**
+
+- `regex.replace`
+
 ### v0.44.0
 
 **New built-in functions**
