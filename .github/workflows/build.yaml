@@ -29,6 +29,6 @@ jobs:
         with:
           go-version-file: 'go.mod'
       - run: go build -o dist/${{ matrix.platform }}/
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with:
           path: dist
