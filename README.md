@@ -25,6 +25,18 @@ Below lists additions to the Rego language, as presented in the OPA capabilities
 Features that may have an impact on the minimum compatible OPA version but are **not** covered by capabilities are
 mentioned separately.
 
+### v0.64.0
+
+**New built-in functions**
+
+- `json.marshal_with_options`
+
+### v0.63.0
+
+**New built-in functions**
+
+- `crypto.x509.parse_and_verify_certificates_with_options`
+
 ### v0.59.0
 
 **Features**
