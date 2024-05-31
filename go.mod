@@ -2,7 +2,7 @@ module mcov
 
 go 1.21
 
-require github.com/open-policy-agent/opa v0.64.1
+require github.com/open-policy-agent/opa v0.65.0
 
 require (
 	github.com/OneOfOne/xxhash v1.2.8 // indirect
