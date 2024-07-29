@@ -25,6 +25,16 @@ Below lists additions to the Rego language, as presented in the OPA capabilities
 Features that may have an impact on the minimum compatible OPA version but are **not** covered by capabilities are
 mentioned separately.
 
+### v0.67.0
+
+**New built-in functions**
+
+- `strings.count`
+
+**Not covered by capabilities**
+
+- Using a keyword, like `contains`, as a rule name, is now a parser error when `rego.v1` is imported
+
 ### v0.64.0
 
 **New built-in functions**
